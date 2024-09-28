@@ -18,6 +18,7 @@ def loadImages():
     for piece in pieces:
         images[piece] = p.transform.scale(p.image.load("Chess/pieces/" + piece + ".png"), (squareSize, squareSize))
 
+#2
 '''
 user input and graphic updates
 '''
